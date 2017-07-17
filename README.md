@@ -26,8 +26,6 @@ include BASEPATH.'Core\Controller.php';
 
 /**
  * Home controller
- *
- * @author Abdul Awal <abdulawal.me>
  */
 class HomeController extends Core\Controller
 {
