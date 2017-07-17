@@ -1,4 +1,4 @@
-# Boost-API
+# Boost-API Framework
 Boost API Framework is a fast and lightweight for restful API development
 
 ## Installation
