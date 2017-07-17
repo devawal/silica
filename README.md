@@ -7,7 +7,7 @@ It's not required to install via composer, just download the latest source
 
 ## Routing
 
-Create new route in index.php
+Create new route in index.php 
 
 ```php
 // Routes
