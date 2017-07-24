@@ -1,5 +1,5 @@
-# Boost-API Framework
-Boost API Framework is a fast and lightweight for restful API development
+# Silica Framework
+Silica Framework is a fast and lightweight for restful API development
 
 ## Installation
 
