@@ -16,4 +16,14 @@ class HomeController extends Core\Controller
     {
     	echo "Hello world";
     }
+
+    /**
+     * Show the index page
+     *
+     * @return void
+     */
+    public function about()
+    {
+    	echo "About";
+    }
 }

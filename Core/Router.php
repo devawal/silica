@@ -172,7 +172,9 @@ class Router
         $root = str_replace('index.php', '', $_SERVER['SCRIPT_NAME']);
         $uri = $server_data['REQUEST_SCHEME'].'://'.$server_data['SERVER_NAME'].':'.$server_data['SERVER_PORT'].$root;
         $redirect_uri = isset($server_data['REDIRECT_URL']) ? $server_data['REDIRECT_URL'] : '';
+        $query_string = $server_data['QUERY_STRING'];
         $match_uri = str_replace($uri, '', $redirect_uri);
+        $match_uri = str_replace('?'.$query_string, '', $match_uri);
 
         $routh_param = [$route, $params];
         if (in_array($match_uri, $routh_param)) {
