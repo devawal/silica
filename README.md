@@ -1,5 +1,5 @@
-# Boost-API Framework
-Boost API Framework is a fast and lightweight for restful API development
+# Silica Framework
+Silica Framework is a fast and lightweight for restful API development
 
 ## Installation
 
@@ -7,7 +7,7 @@ It's not required to install via composer, just download the latest source
 
 ## Routing
 
-Create new route in index.php
+Create new route in index.php  
 
 ```php
 // Routes
