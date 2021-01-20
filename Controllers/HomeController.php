@@ -1,6 +1,6 @@
 <?php
 
-include BASEPATH.'Core\Controller.php';
+include BASEPATH.'..\Core\Controller.php';
 
 /**
  * Home controller

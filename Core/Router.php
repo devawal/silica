@@ -183,7 +183,7 @@ class Router
                 $controller = $this->convertToStudlyCaps($controller);
                 $controller_namespace = $this->getNamespace() . $controller; 
 
-                if (file_exists(BASEPATH.$controller_namespace.'.php')) {
+                if (file_exists(BASEPATH.'../'.$controller_namespace.'.php')) {
                     if (class_exists($controller)) {
                         $controller_object = new $controller($this->params);
 
